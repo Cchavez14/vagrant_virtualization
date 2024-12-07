@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "bento/ubuntu-22.04-arm64" # replace if necessary
+  config.vm.box = "bento/ubuntu-22.04" # replace if necessary
 
   # Database credentials
   db_root_password = "your_root_password"
